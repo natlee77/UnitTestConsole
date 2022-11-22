@@ -8,10 +8,10 @@ namespace testConsole
 {
     public class Stadare : GrundAnstalld
     {
-        
+        public string v1;
         public Stadare(string firstName, string lastName, int salary) : base(firstName, lastName, salary)
         {
-          
+            v1 = firstName;
         }
     }
 }

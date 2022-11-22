@@ -35,7 +35,7 @@ namespace testConsole
 
             List<GrundAnstalld> employeeList = new List<GrundAnstalld>
             {
-                   //new Stadare {FirstName="Lasse",LastName="Oskarsson",BaseSalary=4000},
+                   new Stadare {FirstName="Lasse",LastName="Oskarsson",BaseSalary=4000},
                  //new BrevBarare  {FirstName="Karl", LastName="Blossom", BaseSalary=3000}
              
             };
