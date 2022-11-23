@@ -35,8 +35,8 @@ namespace testConsole
 
             List<GrundAnstalld> employeeList = new List<GrundAnstalld>
             {
-                   new Stadare {FirstName="Lasse",LastName="Oskarsson",BaseSalary=4000},
-                 //new BrevBarare  {FirstName="Karl", LastName="Blossom", BaseSalary=3000}
+                   new GrundAnstalld  {FirstName="Lasse",LastName="Oskarsson",BaseSalary=4000},
+                   //new BrevBarare  {FirstName="Karl", LastName="Blossom", BaseSalary=3000}
              
             };
 
@@ -52,11 +52,12 @@ namespace testConsole
             {
                 Console.WriteLine($"Name: {employee.FirstName} {employee.LastName}" +
                     $" Base Salary: {employee.BaseSalary} " +
-                    $"Total Salary: {employee.TotalSalary}");
+                    $"Total Salary: {employee.TotalSalary}" +
+                    $"Bonus:{employee.Bonus(4)}");
             }
 
             Console.WriteLine($"{employeeLista[1].FirstName } {employeeLista[1].LastName } ");
-            Console.WriteLine($"{employeeList[1].FirstName } {employeeList[1].LastName } Bonus:{employeeList[1].Bonus(4)}");
+            //Console.WriteLine($"{employeeList[1].FirstName } {employeeList[1].LastName } Bonus:{employeeList[1].Bonus(4)}");
         }        
     }
 }
