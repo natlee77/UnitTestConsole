@@ -72,14 +72,6 @@ namespace UnitTest.Tests
         }
 
 
-        [Fact]
-        public void Id_ShouldCreateUniqueID()
-        {
-
-            Guid _id = Guid.NewGuid();
-            EmployeeStandart employee = new EmployeeStandart() { Id = _id };
-            Assert.Equal(_id, employee.Id);
-        }
 
         [Fact]
         public void TotalSalary_ShouldReturnTotalSalary()
@@ -92,5 +84,13 @@ namespace UnitTest.Tests
             Assert.Equal(22000, empl.TotalSalary);
         }
 
+        [Fact]
+        public void Id_ShouldCreateUniqueID()
+        {
+
+            Guid _id = Guid.NewGuid();
+            EmployeeStandart employee = new EmployeeStandart() { Id = _id };
+            Assert.Equal(_id, employee.Id);
+        }
     }
 }

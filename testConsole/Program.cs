@@ -52,8 +52,8 @@ namespace testConsole
             {
                 Console.WriteLine($"Name: {employee.FirstName} {employee.LastName}" +
                     $" Base Salary: {employee.BaseSalary} " +
-                    $"Total Salary: {employee.TotalSalary}" +
-                    $"Bonus:{employee.Bonus(4)}");
+                    $" Total Salary: {employee.TotalSalary} " +
+                    $" Bonus:{employee.Bonus(4)}");
             }
 
             Console.WriteLine($"{employeeLista[1].FirstName } {employeeLista[1].LastName } ");
